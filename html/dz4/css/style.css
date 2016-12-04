@@ -1,0 +1,163 @@
+.clearfix:after {
+  content: '';
+  clear: both;
+  display: block;
+}
+body {
+  background: url('../img/background.jpg');
+}
+.wrapper {
+  margin: 0 auto;
+  width: 1000px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.75);
+}
+.header {
+  padding-top: 14px;
+}
+.logo {
+  float: left;
+  display: block;
+  margin-left: 20px;
+  margin-top: 25px;
+}
+.logo p {
+  margin-top: -65px;
+  color: #128aa7;
+  font-size: 12px;
+  font-family: "Tahoma";
+  text-align: center;
+}
+.container {
+  float: right;
+  padding-right: 30px;
+  padding-bottom: 13px;
+}
+.contacts {
+  float:right;
+  padding-bottom: 40px;
+}
+.contacts li {
+  color: #128aa7;
+  font-size: 12px;
+  font-family: "Tahoma";
+  line-height: 1.7;
+}
+.contacts li:first-child {
+  font-weight: bold;
+}
+.countries {
+  clear: both;
+}
+.countries li {
+  float: left;
+}
+.countries li a{
+  text-align: center;
+  font-size: 10px;
+  font-family: "Tahoma";
+  text-decoration: underline;
+  color: #128aa7;
+}
+.main_picture {
+  display: block;
+  border: 1px solid #128aa7;
+}
+.menu-block {
+  box-shadow: 1px 0px 5px 2px #303030;
+}
+.menu {
+  display: block;
+  margin: 0;
+  padding: 0;
+  border: 1px solid black;
+  width: 1000px;
+  background-color: #303030;
+  font-size: 14px;
+  font-family: "Tahoma";
+}
+.menu li {
+  float: left;
+  position: relative;
+}
+.menu li a {
+  display: block;
+  padding: 5px 10px;
+  color: white;
+  width: 120px;
+  background-color: #303030;
+  text-decoration: none;
+  text-align: center;
+}
+.submenu {
+  display: none;
+  position: absolute;
+  margin-top: -12px;
+  width: 120px;
+  top: 37px;
+  left: 0;
+  box-shadow: 20px 2px 10px 2px #303030, -2px 1px 7px 1px #303030;
+}
+.submenu li {
+  display: block;
+}
+.submenu li a {
+  display: block;
+  padding: 5px 10px;
+  text-align: left;
+  color: white;
+  background-color: #303030;
+  text-decoration: none;
+}
+.menu li:hover .submenu {
+  display: block;
+}
+.fon {
+  margin-top: 5px;
+  width: 1000px;
+  overflow: hidden;
+}
+.left-block {
+  width: 21%;
+  float: left;
+  background-color: #edeef0;
+  padding-bottom: 20000px;
+  margin-bottom: -20000px;
+  font-size: 14px;
+  color: #424c43;
+  line-height: 1.7;
+  font-family: "Tahoma";
+  text-align: center;
+}
+h3 {
+  font-size: 18px;
+  font-family: "Tahoma";
+  text-align: center;
+  padding: 5px;
+}
+.central-block {
+  width: 48%;
+  float: left;
+  background-color: white;
+  padding-bottom: 20000px;
+  margin-bottom: -20000px;
+}
+.right-block {
+  width: 21%;
+  float: right;
+  background-color: #edeef0;
+  padding-bottom: 20000px;
+  margin-bottom: -20000px;
+  font-size: 14px;
+  color: #424c43;
+  line-height: 1.7;
+  font-family: "Tahoma";
+  text-align: center;
+}
+.footer {
+  padding: 5px;
+  text-align: center;
+  color: white;
+  font-size: 12px;
+  font-family: "Tahoma";
+}
