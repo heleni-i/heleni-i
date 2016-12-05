@@ -1,0 +1,15 @@
+<section class="ideas">
+    <h2 class="ideas__title">Discover holiday activity
+        ideas</h2>
+
+    <script type="text/template" id="container">
+        <div class="grid">
+            <% for (var i = 0; i < 10; i++) { %>
+            <figure class="grid-item">
+                <img src="<%= hits[i].webformatURL %>" alt="picture" class="ideas__img"/>
+                <figcaption class="ideas__img--title"><%= hits[i].tags.split(', ')[1] %></figcaption>
+            </figure>
+            <% } %>
+        </div>
+    </script>
+</section>
